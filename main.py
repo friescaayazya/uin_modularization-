@@ -17,3 +17,13 @@ kecepatan = hitung_kecepatan (3000, 70 * 60)
 #TUGAS: buat fungsi  _APA_SAJA_YANG_KALIAN_TAHU
 #DAN GUNAKAN
 
+def hitung_arus(tegangan, hambatan):
+    arus = tegangan / hambatan
+    print(f'tegangan = {tegangan/30}volt diperoleh dari hambatan = {hambatan/15}ohm')
+    print(f'sehingga arus = {arus} ampere')
+
+
+# tegangan = 30
+# hambatan = 15
+arus = hitung_arus(30, 15)
+arus = hitung_arus(60, 30)
