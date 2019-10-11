@@ -27,3 +27,4 @@ def hitung_arus(tegangan, hambatan):
 # hambatan = 15
 arus = hitung_arus(30, 15)
 arus = hitung_arus(60, 30)
+
